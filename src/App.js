@@ -1,25 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Penguin from './components/penguin';
+import Flamingo from './components/syrine';
+import Marine from './components/marine';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+   <div>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#work">Feautures</a>
+        <a href="#info">Pricing</a>
+     
 
-export default App;
+     </nav>
+    <div className='mohamed'>
+      <h1>Featured Articles</h1>
+    </div>
+
+    <div className='mohamed'>
+      <Flamingo/>
+      <Penguin/>
+      <Marine/>
+    </div>
+    </div>
+  )
+}
+  export default App 

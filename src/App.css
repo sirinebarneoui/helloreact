@@ -1,6 +1,9 @@
 .App {
   text-align: center;
 }
+ .h1{ 
+  margin-left: 100%;
+ }
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +38,13 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.mohamed{
+  display: flex;
+  justify-content: space-around;
+}
+#home {
+  margin-left: 300px;
+   
 }
